@@ -1,0 +1,104 @@
+body {
+  font-family: 'Arvo', serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 16px;
+}
+
+h6 {
+  text-align: center;
+  font-size: 16px;
+  padding: 0em;
+}
+
+#wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  background-color: #E8573A;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline;
+  list-style-type: none;
+}
+
+nav ul li a{
+  color: #aaa;
+  display: inline-block;
+  line-height: 2.5em;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  margin: 2em 0 0 0;
+  line-height: 0.5em;
+  background-color: #E8573A;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#education {
+  width: 50%;
+  float: left;
+  list-style-type: none;
+}
+
+#address {
+  width: 50%;
+  float: right;
+}
+
+#experience {
+  clear: both;
+  float: none;
+}
+
+footer p {
+  padding:  0.2em 1em;
+}
